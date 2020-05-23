@@ -23,7 +23,6 @@ class Show extends React.Component {
                     <a href="/characters">Return to Character Database</a>
                 </div>
 
-
             </Layout>
         )
     }
