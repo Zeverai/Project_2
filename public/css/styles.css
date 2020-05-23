@@ -11,6 +11,60 @@
 
 
 
-.index-header{
+.index-header {
+    font-size: 30px;
+    font-family: var(--main-font-style);
+}
 
+
+
+
+
+/* CHARACTER CARD */
+
+.character-card-container {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.character-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+    
+}
+
+.character-display-image {
+    height: auto;
+    max-width: 200px;
+    background: black;
+    background-image: linear-gradient(red,yellow,red);
+    
+    border-radius: 5px;
+    margin: 0px 5px;
+    animation: Character-Card-BG 5s ease infinite;
+}
+
+
+
+
+
+
+
+
+
+
+/* ANIMATIONS */
+
+/* Character Card Background Gradient Animation */
+
+@keyframes Character-Card-BG {
+    0%{background-position:20% 0%}
+    50%{background-position:81% 100%}
+    100%{background-position:20% 0%}
 }

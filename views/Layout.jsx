@@ -7,7 +7,7 @@ class Layout extends React.Component{
       <html lang="en" dir="ltr">
         <head>
             <link href="https://fonts.googleapis.com/css2?family=Metamorphous&display=swap" rel="stylesheet"/>
-            <link rel="stylesheet" href="./public/styles.css"/>
+            <link rel="stylesheet" href="/css/styles.css"/>
             <meta charSet="utf-8"/>
             <title></title>
         </head>
