@@ -62,6 +62,7 @@ controller.put(`/edit/:id`, (req,res)=>{
         res.redirect(`/characters`)
     })
 })
+
 ////////////////////////////
 //    EXPORT CONTROLLER
 ////////////////////////////
