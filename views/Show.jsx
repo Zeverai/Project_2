@@ -7,7 +7,7 @@ class Show extends React.Component {
         // const color = this.props.fruit.color;
         // const readyToEat = this.props.fruit.readyToEat;
         // destructuring
-        const { data } = this.props;
+        const {data} = this.props;
         return (
             <Layout>
                 <div>
@@ -20,7 +20,7 @@ class Show extends React.Component {
                       <a href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
                 </div>
                 <div>
-                    <a href="/characters">Return to Character Index</a>
+                    <a href="/characters">Return to Character Database</a>
                 </div>
 
 

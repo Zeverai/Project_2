@@ -5,6 +5,9 @@ class New extends React.Component {
       return (
           <div>
               <h1>Add Character Here:</h1>
+                     <nav>
+                        <a href="/characters">Return to Character Database</a>
+                    </nav>
               <form action="/characters" method="POST">
                   Name: <input type="text" name="name" placeholder="NPC Name Here"/><br/>
                   Bio: <input type="text" name="bio" placeholder="Biography Here"/><br/>
