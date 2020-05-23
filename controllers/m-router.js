@@ -63,6 +63,16 @@ controller.put(`/edit/:id`, (req,res)=>{
     })
 })
 
+
+////////////////////////////
+//         UPDATE
+////////////////////////////
+controller.delete(`/:id`, (req, res)=>{
+    Fruit.findByIdAndRemove(req.params.id, (err, data)=>{
+        res.redirect(`/characters`);
+    });
+});
+
 ////////////////////////////
 //    EXPORT CONTROLLER
 ////////////////////////////
