@@ -1,9 +1,10 @@
+////////////////////////////
+//      DEPENDENCIES 
+////////////////////////////
 const express = require(`express`);
 const controller = express.Router()
 const mongoose = require(`mongoose`);
 const Character = require(`../models/characters.js`)
-
-
 
 ////////////////////////////
 //         INDEX
@@ -14,7 +15,6 @@ controller.get('/', (req, res) => {
             data: data
         })
     });
-     // res.send(`Hello, I'm the future index page!`)
 });
 
 ////////////////////////////

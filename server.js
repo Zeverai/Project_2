@@ -43,10 +43,10 @@ app.use(methodOverride(`_method`));
 app.use(`/characters`, controller)
 
 //////////////////////////////////
-// Default / Redirect
+// Default Redirect To Index Page
 //////////////////////////////////
 app.get('/' , (req, res) => {
-  res.send('Hello World!!');
+  res.redirect('/characters');
 });
 
 //////////////////////////////////
