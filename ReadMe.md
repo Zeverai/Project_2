@@ -1,23 +1,4 @@
-```json
-{ 
-  "engines": {
-    "node": "12.16.2"
-  },
-  "name": "project_23",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon"
-  },
-  "keywords": [],
-  "author": "Cody Tyler",
-  "license": "ISC"
-}
-
-```
+```https://cody-tyler.herokuapp.com/characters```
 
 # Remember YOUR ENGINES or it won't work. 
 # Make sure you have "start".
