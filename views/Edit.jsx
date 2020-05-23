@@ -10,7 +10,7 @@ class Edit extends React.Component {
 
                 <form action={`/characters/edit/${data._id}?_method=put`} method="POST">
                     Name: <input type="text" name="name" value={data.name}/><br/>
-                    Bio: <input type="text" name="bio" value={data.bio}/><br/>
+                    Bio: <textarea type="text" name="bio" value={data.bio}/><br/>
                     Image: <input type="text" name="img" value={data.img}/><br/>
                     <input type="submit" name="" value="Update Character"/>
                 </form>

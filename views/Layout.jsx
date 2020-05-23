@@ -6,6 +6,8 @@ class Layout extends React.Component{
     return (
       <html lang="en" dir="ltr">
         <head>
+
+            <link rel="stylesheet" href="./public/styles.css"/>
             <meta charSet="utf-8"/>
             <title></title>
         </head>
