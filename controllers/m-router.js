@@ -44,8 +44,24 @@ controller.get('/:id', (req, res) => {
     });
 });
 
+////////////////////////////
+//         EDIT
+////////////////////////////
+controller.get(`/edit/:id`, (req,res)=>{
+    Character.findById(req.params.id, (error, data)=>{
+        res.render(`Edit`, {data: data})
+    })
+})
 
 
+////////////////////////////
+//         UPDATE
+////////////////////////////
+controller.put(`/edit/:id`, (req,res)=>{
+    Character.findByIdAndUpdate(req.params.id, req.body, (error, data)=>{
+        res.redirect(`/characters`)
+    })
+})
 ////////////////////////////
 //    EXPORT CONTROLLER
 ////////////////////////////

@@ -16,10 +16,14 @@ class Show extends React.Component {
                     <img src={data.img} alt={data.name}/>
                     <p>{data.bio}</p>
                 </div>
-
+                <div>
+                      <a href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
+                </div>
                 <div>
                     <a href="/characters">Return to Character Index</a>
                 </div>
+
+
             </Layout>
         )
     }
