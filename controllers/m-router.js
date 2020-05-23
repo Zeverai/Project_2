@@ -33,8 +33,16 @@ controller.post('/', (req, res) => {
     });
 });
 
-
-
+////////////////////////////
+//         SHOW
+////////////////////////////
+controller.get('/:id', (req, res) => {
+    Character.findById(req.params.id, (error, data) => {
+        res.render('Show', {
+            data: data
+        });
+    });
+});
 
 
 
