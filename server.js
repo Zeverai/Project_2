@@ -8,7 +8,7 @@ const app = express ();
 const db = mongoose.connection;
 const PORT = process.env.PORT || 3000;
 const Characters = require(`./models/characters.js`)
-
+const controller = require('./controllers/m-router.js')
 //////////////////////////////////
 // Database
 //////////////////////////////////
@@ -39,12 +39,12 @@ app.use(methodOverride(`_method`));
 //////////////////////////////////
 // Routes
 //////////////////////////////////
-app.use(`/m-router`, controller)
+app.use(`/characters`, controller)
 //////////////////////////////////
 // Default / Redirect
 //////////////////////////////////
 app.get('/' , (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello World!!');
 });
 //////////////////////////////////
 // Port Listener

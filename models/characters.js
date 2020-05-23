@@ -9,7 +9,7 @@ const characterSchema = new Schema({
 }, { timestamps: true });
 
 //  Create Model from our Schema
-const Character = mongoose.model('Character', fruitSchema);
+const Character = mongoose.model('Character', characterSchema);
 
 // Export Fruit Model
 module.exports = Character;

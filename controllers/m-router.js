@@ -6,14 +6,29 @@ const Character = require(`../models/characters.js`)
 
 
 ////////////////////////////
-//          INDEX
+//         INDEX
 ////////////////////////////
-controller.get('/characters', (req, res) => {
-
-    .find({}, (error, allFruits) => {
-        res.render('Index', {
-            fruits: allFruits,
-            username: req.session.currentUser
-        })
-    });
+controller.get('/', (req, res) => {
+    // Character.find({}, (error, data) => {
+    //     res.render('Index', {
+    //         data: data
+    //     })
+    res.send(`Hello, I'm the future index page!`)
+    // });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////
+//    EXPORT CONTROLLER
+////////////////////////////
+module.exports = controller
