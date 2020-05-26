@@ -17,8 +17,11 @@ class Show extends React.Component {
                     <p>{data.bio}</p>
                 </div>
                 <div>
-                      <a href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
+                    <a href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
                 </div>
+                <form action={`/characters/${data._id}?_method=DELETE`} method="post">
+                    <input type="submit" value="Delete"/>
+                </form>
                 <div>
                     <a href="/characters">Return to Character Database</a>
                 </div>
