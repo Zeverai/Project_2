@@ -65,10 +65,10 @@ controller.put(`/edit/:id`, (req,res)=>{
 
 
 ////////////////////////////
-//         UPDATE
+//         DELETE
 ////////////////////////////
 controller.delete(`/:id`, (req, res)=>{
-    Fruit.findByIdAndRemove(req.params.id, (err, data)=>{
+    Character.findByIdAndRemove(req.params.id, (err, data)=>{
         res.redirect(`/characters`);
     });
 });
