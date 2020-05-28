@@ -263,9 +263,17 @@ body {
     margin-bottom: 5%;
 }
 
+.return-link-edit-new {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color .3s;
+}
 
+.return-link-edit-new:hover {
+    text-decoration: none;
+    color: orange;
 
-
+}
 
 
 
