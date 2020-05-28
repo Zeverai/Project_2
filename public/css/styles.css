@@ -11,7 +11,8 @@
 .title_image {
     margin-bottom: -25px;
     width: 100%;
-    margin-top: -180px;
+    height: auto;
+    /* margin-top: -180px; */
 }
 
 .index_title_text {
