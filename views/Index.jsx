@@ -25,12 +25,11 @@ class Index extends React.Component {
                                 
 
                                 <div className="character-card" key="index"> 
-                                    <h3>{data.name}</h3>
+                                    <h3 className="npc_card_name">{data.name}</h3>
                                         <div>
                                             <a href={`/characters/${data._id}`}><img src={data.img} alt={data.name} className="character-display-image"/></a>
                                         </div>
                                     
-                                    <p></p>
                                 </div>
                             )}
                         )}

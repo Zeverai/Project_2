@@ -12,7 +12,7 @@
 .title_image {
     margin-bottom: -25px;
     width:100%;
-    margin-top: -100px;
+    margin-top: -250px;
 }
 
 .index_title_text {
@@ -42,6 +42,15 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     letter-spacing: 2px;
+    transition: color 1s;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 1);
+}
+
+.add_link_text:hover {
+   color: orange;
+   font-size: 16px;
+   transform: scale(1.1);
+   text-shadow: 0px 3px 5px rgba(0, 0, 0, 1);
 }
 
 .database_header_text {
@@ -58,7 +67,7 @@
 
 
 body {
-    background-color: #3D4849 ;
+    background-color: rgb(30,27,27);
 }
 
 
@@ -67,9 +76,11 @@ body {
 .character-card-container {
     display:flex;
     flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
     max-width: 80%;
     /* background-color: grey; */
+    
 }
 
 .character-card {
@@ -80,13 +91,28 @@ body {
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px 5px;
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: url("https://www.gamesear.com/images/2016/8/path-of-exile-atlas.jpg");
+    background-position: center;
+    padding: 10px;
+}
+
+.npc_card_name {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    border: 1px double rgba(0,0,0,0.4);
+    padding: 5px;
+    margin-bottom: 3px;
 }
 
 .character-display-image {
     height: auto;
     max-width: 200px;
-    background: black;
+    background: rgba(0,0,0,0.4);
     background-image: linear-gradient(red,yellow,red);
     
     border-radius: 5px;
