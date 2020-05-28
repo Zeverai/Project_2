@@ -13,10 +13,10 @@ class Edit extends React.Component {
                         Name: <br/>
                         <input type="text" name="name" defaultValue={data.name} size="40"/><br/>
                         Bio: <br/>
-                        <textarea type="text" name="bio" defaultValue={data.bio} rows="16" cols="70"/><br/>
+                        <textarea type="text" name="bio" defaultValue={data.bio} rows="20" cols="70"/><br/>
                         Image: <br/>
                         <input type="text" name="img" defaultValue={data.img} size="40"/><br/>
-                        <input type="submit" name="" defaultValue="Update Character"/>
+                        <input className="update-button" type="submit" name="" defaultValue="Update Character"/>
                     </form>
             </div>
         </Layout>
