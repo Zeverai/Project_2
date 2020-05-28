@@ -1,7 +1,5 @@
 ```https://cody-tyler.herokuapp.com```
 
-# Remember YOUR ENGINES or it won't work. 
-# Make sure you have "start".
 
 This is a simple database for Path of Exile important NPC's. 
 Includes masters, player classes, and important quest npc's from the main storyline,
