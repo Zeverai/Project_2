@@ -7,20 +7,23 @@ class Index extends React.Component {
         return (
             <Layout>
                 <div>
-
+                    <div >
+                        <img className="title_image" src="https://earlyaxes.co.za/wp-content/uploads/2017/09/path-of-exile-banner.png" alt="hero_image"/>
+                    </div>
                     <div className="index-header">
-                        <h1>Path of Exile</h1>
+                        <h1 className="index_title_text">Quick Lore Reference Cards</h1>
                     </div>
                     
-                    <h2>Character Database</h2>
 
-                    <nav>
-                        <a href="/characters/new">Click Here to Add Character to Database</a>
+                    <nav className="add_link">
+                        <a className="add_link_text" href="/characters/new">Click Here to Add Character to Database</a>
                     </nav>
 
                     <div className = "character-card-container">
                         {data.map((data, i)=> {
                             return (
+                                
+
                                 <div className="character-card" key="index"> 
                                     <h3>{data.name}</h3>
                                         <div>

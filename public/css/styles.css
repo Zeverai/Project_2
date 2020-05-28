@@ -9,7 +9,47 @@
 }
 
 
+.title_image {
+    margin-bottom: -25px;
+    width:100%;
+    margin-top: -100px;
+}
 
+.index_title_text {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    /* background-color: grey; */
+    text-shadow: 1px 2px 2px 3px black;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.add_link {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: -20px;
+    padding: 5px;
+    z-index: 1000;
+    background-color: rgb(68, 21,22);
+    padding: 10px 10px;
+}
+
+.add_link_text {
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.database_header_text {
+    color: whitesmoke;
+    font-family: var(--main-font-style);
+    text-align: right;
+    margin-right: 50px;
+}
 
 .index-header {
     font-size: 30px;
@@ -17,7 +57,9 @@
 }
 
 
-
+body {
+    background-color: #3D4849 ;
+}
 
 
 /* CHARACTER CARD */
@@ -25,7 +67,9 @@
 .character-card-container {
     display:flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
+    max-width: 80%;
+    /* background-color: grey; */
 }
 
 .character-card {
@@ -36,7 +80,7 @@
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px 5px;
-    
+    background-color: grey;
 }
 
 .character-display-image {
@@ -47,7 +91,8 @@
     
     border-radius: 5px;
     margin: 0px 5px;
-    animation: Character-Card-BG 5s ease infinite;
+
+    animation: Character_Card_BG 5s ease infinite;
 }
 
 
@@ -62,9 +107,8 @@
 /* ANIMATIONS */
 
 /* Character Card Background Gradient Animation */
-
-@keyframes Character-Card-BG {
-    0%{background-position:20% 0%}
-    50%{background-position:81% 100%}
-    100%{background-position:20% 0%}
+@keyframes Character_Card_BG {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:100% 0%}
 }
