@@ -35,6 +35,14 @@ class Index extends React.Component {
                         )}
                     </div>
 
+                    <div className="footer-div">
+                            <h1 className="footer-title">Thanks for using our page! Useful resources down below.</h1>
+
+                            <div className="footer-div-grid">
+                                
+                            </div>
+                    </div>
+
 
 
 

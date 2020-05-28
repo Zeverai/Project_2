@@ -124,8 +124,16 @@ body {
 
 
 
+/* FOOTER INDEX */
 
+.footer-title {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 
+}
 
 
 
