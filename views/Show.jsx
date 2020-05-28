@@ -21,14 +21,14 @@ class Show extends React.Component {
                         <p className="show-character-bio">{data.bio}</p>
                         </div>
 
-                    <div>
-                        <a href="/characters">Return to Character Database</a>
+                    <div className="show-return-link-div">
+                        <a className="show-return-link" href="/characters">Return to Character Database</a>
                     </div>
-                    <div>
+                    <div className="show-edit-link-div">
                         <a className="show-edit-link" href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
                     </div>
                     <form action={`/characters/${data._id}?_method=DELETE`} method="post">
-                        <input type="submit" value="Delete"/>
+                        <input className="show-delete-character-button" type="submit" value="Delete"/>
                     </form>
                     
                 </div>

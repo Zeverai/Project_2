@@ -11,7 +11,7 @@ class Index extends React.Component {
                         <img className="title_image" src="https://earlyaxes.co.za/wp-content/uploads/2017/09/path-of-exile-banner.png" alt="hero_image"/>
                     </div>
                     <div className="index-header">
-                        <h1 className="index_title_text">Quick Lore Reference Cards</h1>
+                        <h1 className="index_title_text">Quick Reference Character Cards</h1>
                     </div>
                     
 
@@ -39,7 +39,7 @@ class Index extends React.Component {
                             <h1 className="footer-title">Thanks for using our page! Useful resources down below.</h1>
 
                             <div className="footer-div-grid">
-                                
+
                             </div>
                     </div>
 
