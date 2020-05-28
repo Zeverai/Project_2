@@ -39,8 +39,8 @@ class Index extends React.Component {
                             <h1 className="footer-title">Thanks for using our page! Useful resources down below.</h1>
 
                             <div className="footer-div-grid">
-                                <a href="https://www.grindinggear.com/">Grinding Gear Games</a> <br/>
-                                <a href="https://www.pathofexile.com/">Path of Exile</a> <br/>
+                                <a href="https://www.grindinggear.com/">Grinding Gear Games </a> <br/>
+                                <a href="https://www.pathofexile.com/"> Path of Exile</a> <br/>
                             </div>
                     </div>
 
