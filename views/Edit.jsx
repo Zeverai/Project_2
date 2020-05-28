@@ -6,8 +6,8 @@ class Edit extends React.Component {
         const {data} = this.props
       return (
         <Layout>
-            <div>
-                <h1>New Fruit page</h1>
+            <div className="edit-container">
+                <h1 className="edit-header-text">Add Character to Database Using the Form Below</h1>
 
                     <form action={`/characters/edit/${data._id}?_method=put`} method="POST">
                         Name: <input type="text" name="name" value={data.name}/><br/>

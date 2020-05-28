@@ -71,7 +71,7 @@ body {
 }
 
 
-/* CHARACTER CARD */
+/*                                                                                          CHARACTER CARD */
 
 .character-card-container {
     display:flex;
@@ -117,12 +117,11 @@ body {
     border-radius: 5px;
     margin: 0px 5px;
     animation: Character_Card_BG 5s ease infinite;
+    box-shadow: inset 0px -10px 10px rgba(0,0,0,.7);
 }
 
 
-
-
-/* FOOTER INDEX */
+/*                                                                                      FOOTER INDEX */
 
 .footer-title {
     color: whitesmoke;
@@ -134,7 +133,7 @@ body {
 }
 
 
-/* Show Page */
+/*                                                                                       SHOW PAGE*/
 
 .show-container {
     text-align: center;
@@ -230,10 +229,53 @@ body {
 }
 
 .show-delete-character-button {
-    
+
 }
 
-/* ANIMATIONS */
+
+
+/*                                                                                  EDIT PAGE */
+
+.edit-container {
+    text-align: center;
+}
+
+
+.edit-header-text {
+    font-family: var(--main-font-style);
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                                                  ANIMATIONS */
 
 /* Character Card Background Gradient Animation */
 @keyframes Character_Card_BG {
