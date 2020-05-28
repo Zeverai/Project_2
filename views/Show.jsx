@@ -10,22 +10,28 @@ class Show extends React.Component {
         const {data} = this.props;
         return (
             <Layout>
-                <div>
-                    <h1>{data.name}</h1>
-                    <p>Database-ID: {data.id}</p>
-                    <img src={data.img} alt={data.name}/>
-                    <p>{data.bio}</p>
-                </div>
-                <div>
-                    <a href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
-                </div>
-                <form action={`/characters/${data._id}?_method=DELETE`} method="post">
-                    <input type="submit" value="Delete"/>
-                </form>
-                <div>
-                    <a href="/characters">Return to Character Database</a>
-                </div>
+                <div className="show-container">
+                    <div>
+                        <h1 className="show-character-name">{data.name}</h1>
+                        <p className="show-db-id">Database-ID: {data.id}</p>
+                        <img className="show-character-img"src={data.img} alt={data.name}/>
+                    </div>
 
+                    <div>
+                        <p className="show-character-bio">{data.bio}</p>
+                        </div>
+
+                    <div>
+                        <a href="/characters">Return to Character Database</a>
+                    </div>
+                    <div>
+                        <a className="show-edit-link" href={`/characters/edit/${data._id}`}>Edit {data.name}.</a>
+                    </div>
+                    <form action={`/characters/${data._id}?_method=DELETE`} method="post">
+                        <input type="submit" value="Delete"/>
+                    </form>
+                    
+                </div>
             </Layout>
         )
     }

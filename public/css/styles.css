@@ -114,10 +114,8 @@ body {
     max-width: 200px;
     background: rgba(0,0,0,0.4);
     background-image: linear-gradient(red,yellow,red);
-    
     border-radius: 5px;
     margin: 0px 5px;
-
     animation: Character_Card_BG 5s ease infinite;
 }
 
@@ -136,7 +134,44 @@ body {
 }
 
 
+/* Show Page */
 
+.show-container {
+    text-align: center;
+    margin-top: 30px;
+    background-image: url("https://web.poecdn.com/public/news/2019-06-04/Atlas370.png");
+    background-position: center;
+}
+
+.show-character-name {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: var(--main-font-style);
+}
+
+.show-db-id {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+
+.show-character-img {
+    border-radius: 8px;
+    border: 2px solid black;
+    /* background-color: black; */
+    background-image: url("https://i.pinimg.com/originals/6f/08/1c/6f081c95e1d4bfea095132e71d68940c.gif");
+}
+
+.show-character-bio {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    letter-spacing: .5px;
+    color: whitesmoke;
+    margin: 0px 20%;
+    padding:4px;
+    background-color: rgba(15,15,15,.83);
+    border-radius: 6px;
+}
 
 /* ANIMATIONS */
 
