@@ -8,11 +8,10 @@
 
 }
 
-
 .title_image {
     margin-bottom: -25px;
-    width:100%;
-    margin-top: -250px;
+    width: 100%;
+    margin-top: -180px;
 }
 
 .index_title_text {
@@ -78,7 +77,7 @@ body {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 100%;
     /* background-color: grey; */
     
 }
